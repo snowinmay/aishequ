@@ -1,0 +1,75 @@
+html,body,div,p,h1,h2,h3,h4,blockquote,pre,form,fieldset,ol,ul,li,dl,dd,dt,table,tbody,thead,tfoot,tr,th,td {
+	margin:0;
+	padding:0
+}
+body {
+	font:12px/1.5 "Microsoft Yahei",sans-serif;
+	color:#333;
+	background:transparent;
+	-webkit-font-smoothing:antialiased
+}
+img {
+	border:0
+}
+button {
+	vertical-align:middle;
+	cursor:pointer
+}
+input,img {
+	vertical-align:middle
+}
+input,textarea {
+	font-size:inherit;
+	font-family:Tahoma,"宋体"
+}
+input::-ms-clear {
+	display:none
+}
+ul,ol {
+	list-style:none
+}
+table {
+	border-collapse:collapse
+}
+a {
+	outline:0;
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+em {
+	font-style:normal
+}
+i {
+	font-style:normal;
+	vertical-align:middle;
+	display:inline-block;
+	*zoom:1;
+	*display:inline
+}
+fieldset {
+	border:0
+}
+legend {
+	display:none
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:14px;
+	padding:0;
+	margin:0
+}
+.clear {
+	clear:both
+}
+.fix {
+	zoom:1
+}
+.fix:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0
+}
