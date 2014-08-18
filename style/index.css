@@ -61,12 +61,6 @@
 	border-top: 1px solid #e5e5e5;
 	border-left: 1px solid #e5e5e5;
 }
-.1content .forum_nav li:first-child:hover, .content .forum_nav li:first-child.selected{
-	border-top: none;
-}
-.1content .forum_nav li:last-child:hover, .content .forum_nav li:last-child.selected{
-	border-bottom: none;
-}
 .forum_content .forum_item{
 	overflow: hidden;
 	width: 380px;
@@ -95,3 +89,11 @@
 	margin-right: 10px;
 }
 /* 论坛e */
+
+/* login s */
+.content .login, .content .register{
+	box-sizing : border-box;
+	width: 480px;
+	border: 4px solid #e5e5e5;
+}
+/* login e */
