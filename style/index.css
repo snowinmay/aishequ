@@ -91,9 +91,83 @@
 /* 论坛e */
 
 /* login s */
-.content .login, .content .register{
+.login_wraper .content .login, .login_wraper .content .register{
 	box-sizing : border-box;
 	width: 480px;
 	border: 4px solid #e5e5e5;
+	background: #fff;
+}
+.login_wraper .content h2{
+	height: 36px;
+	margin: 10px 0;
+	background: url(../images/login.png) 0 0 no-repeat;
+	position: relative;
+	left: -4px;
+}
+.login_wraper .content .register h2{
+	background-position: 0 -50px;
+}
+.login_wraper .content .form{
+	padding: 36px;
+}
+.form .form-control{
+	height: 46px;
+	font-family: "Microsoft Yahei"; 	
+}
+.input-group{
+	margin-bottom: 10px;
+}
+.input-group .input-group-addon{
+	background: #fff;
+	color: #bbb;
+}
+.remember_text{
+	position: relative;
+	left: 6px;
+	top: 4px;
+	font-weight: normal;
+	color: #666;
+}
+.login_wraper .btn-form{
+	background: #afe5c9;
+	color: #fff;
+	padding: 12px;
+	margin-top: 40px;
+}
+.login_wraper .btn-register{
+	background: #fcd6b5;
+	color: #fff;
+	padding: 12px;
+	margin-top: 40px;
+}
+.register .input-group{
+	display: block;	
+}
+.register .form-control{
+	width: 80%;
+	border-radius: 4px !important;
+	float: right;
+}
+.register .form-control.left{
+	float: left;
+}
+.remember_label{
+	float: left;
+	width: 20%;
+	font-size: 14px;
+	height: 46px;
+	line-height: 46px;
+	margin-bottom: 0;
+	font-weight: normal;
+	color: #666;
+}
+.register .area .form-control{
+	width: 40%;
+}
+.register .area .form-control.left{
+	width: 36%;
+}
+.area_select button{
+	height: 46px;
 }
 /* login e */

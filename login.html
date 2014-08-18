@@ -12,7 +12,7 @@
 	<script src="js/jquery.validate.min.js"></script>
 </head>
 <body>
-	<div id="wraper">
+	<div id="wraper" class="login_wraper">
 		<div class="header mb_15">
 			<div class="header_wraper">
 				dd
@@ -20,14 +20,60 @@
 		</div>
 		<div class="content fix">
 			<div class="login left">
-				<form action="">
-					我的登录
-				</form>
+				<h2></h2>
+				<div class="form">
+					<form action="">
+						<div class="input-group">
+							<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+							<input type="text" class="form-control" placeholder="请输入邮箱">
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon"><span class="glyphicon glyphicon-briefcase"></span></span>
+							<input type="password" class="form-control" placeholder="请输入密码">
+						</div>
+						<div class="input-group">
+							<input type="checkbox" id="log_remember">
+							<label for="log_remember" class="remember_text">下次自动登录</label>
+				        </div>
+				        <button type="button" class="btn btn-green btn-block btn-form btn-login">登录</button>
+					</form>
+				</div>				
 			</div>
 			<div class="register right">
-				<form action="">
-					我的注册
-				</form>
+				<h2></h2>
+				<div class="form">
+					<form action="">
+						<div class="input-group fix">
+							<label class="remember_label">邮箱</label>
+							<input type="text" class="form-control" placeholder="请输入邮箱">
+						</div>
+						<div class="input-group fix">
+							<label class="remember_label">密码</label>
+							<input type="password" class="form-control" placeholder="请输入密码">
+						</div>
+						<div class="input-group fix">
+							<label class="remember_label">昵称</label>
+							<input type="text" class="form-control" placeholder="请输入昵称">
+						</div>
+						<div class="input-group area fix">
+							<label class="remember_label">所在小区</label>
+							<div class="btn-group left area_select">
+							  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+							    选择您所在的城市 <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu">
+							    ...
+							  </ul>
+							</div>
+							<input type="text" class="form-control" placeholder="输入小区名称或拼音代码">
+						</div>
+						<div class="input-group fix">
+							<input type="checkbox" id="reg_remember">
+							<label for="reg_remember" class="remember_text">我已经认真阅读并同意爱社区的《使用协议》</label>
+				        </div>
+				        <button type="button" class="btn btn-green btn-block btn-form btn-register">注册</button>
+					</form>
+				</div>				
 			</div>
 		</div>
 		<div class="footer"></div>
