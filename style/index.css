@@ -91,6 +91,29 @@
 /* 论坛e */
 
 /* login s */
+.login_wraper .header{
+	height: 123px;
+}
+.login_wraper .header .header_wraper{
+	padding-top: 40px;
+}
+.login_wraper .login_logo{
+	width: 163px;
+	height: 50px;
+	background: url(../images/login_logo.png);
+	float: left;
+}
+.login_wraper .login_title{
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	color: #fff;
+	border-left: 1px solid #fff;
+	margin-top: 6px;
+	margin-left: 12px;
+	padding-left: 12px;
+}
 .login_wraper .content .login, .login_wraper .content .register{
 	box-sizing : border-box;
 	width: 480px;
