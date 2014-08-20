@@ -170,52 +170,6 @@
 	margin-right: 10px;
 }
 /* 论坛e */
-/* index top s */
-.header_wraper .logo{
-	background: url(../images/index_logo.png);
-	height: 43px;
-	width: 140px;
-	margin-right: 25px;
-}
-.header_wraper .nav{
-	height: 43px;
-	line-height: 43px;
-}
-.header_wraper .nav li{
-	float: left;
-}
-.header_wraper .nav li a{
-	color: #fff;
-	font-size: 14px;
-	padding: 0 25px;
-}
-.header_wraper .header_right{
-	float: right;
-	padding: 6px 0;
-}
-.header_wraper .header_right .login_item{
-	float: left;	
-	border: 1px solid #fff;
-	border-radius: 2px;
-	margin-left: 10px;
-	padding-left: 10px;
-}
-.header_wraper .header_right .position{
-	color: #fff;
-	font-size: 14px;	
-}
-.header_wraper .header_right .login_item a{
-	height: 30px;
-	line-height: 30px;
-	color: #fff;
-	font-size: 14px;
-	padding: 0 10px 0 30px;
-	background: url(../images/index_icon.png) 10px -260px no-repeat;
-}
-.header_wraper .header_right .login a{
-	background: url(../images/login_icon.png) 5px 3px no-repeat;
-}
-/* index top e */
 
 /* login s */
 .login_wraper .header{

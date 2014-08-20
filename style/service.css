@@ -1,0 +1,146 @@
+.content {
+	width: 980px;
+	margin: auto;
+}
+
+.content .service{
+	padding: 15px;
+	border: 4px solid #e5e5e5;
+	box-sizing : border-box;
+}
+.content .service h2{
+	height: 36px;
+	width: 140px;
+	background: url(../images/index_icon.png) 0 -80px no-repeat;
+	position: relative;
+	left: -19px;
+	margin-bottom: 18px;
+}
+.content .service_items{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.content .service_items h3{
+	width: 80px;
+	height: 30px;
+	padding-top: 50px;
+	float: left;
+	border-radius: 2px;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	background: #45abf1 url(../images/index_icon.png) 23px -310px no-repeat;
+	margin-right: 15px;
+}
+.content .logistics h3{
+	background: #f89945 url(../images/index_icon.png) 23px -390px no-repeat;
+}
+.content .service_items dl{
+	margin-left: 95px;
+	overflow: hidden;
+}
+.content .service_items dd{
+	float: left;
+	width: 80px;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+}
+.content .service_items dd a {
+	color: #666;
+}
+.content .logistics{
+	margin-bottom: 0;
+	padding-top: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+.content .sub_nav li{
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+}
+.content .sub_nav li a{	
+	color: #45abf1;
+}
+.content .waimai, .content .market{
+	border: 4px solid #e5e5e5;
+	width: 480px;
+	box-sizing: border-box;
+	font-size: 13px;
+	color: #999;
+}
+.content .content_item h2{
+	height: 36px;
+	margin: 8px 0;
+	position: relative;
+	left: -4px;
+	background: url(../images/service_icon.png) 0 0 no-repeat;	
+}
+.content .market h2{
+	background-position: 0 -40px;
+}
+.content .content_item li{
+	padding: 20px 15px;
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+	zoom: 1;
+}
+.content .waimai img {
+	width: 120px;
+	height: 120px;
+}
+.content .content_item .main{
+	margin-left: 20px;
+	height: 120px;
+	position: relative;
+}
+.content .content_item .title{
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+}
+.content .content_item .main_item{
+	line-height: 20px;
+}
+.content .content_item .main_item span{ 
+	margin-right: 10px;
+}
+.content .content_item .main_item span.yf{ 
+	color: #53cf90;
+}
+.content .content_item .see a{
+	height: 30px;
+	width: 70px;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 2px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	padding: 0 15px;
+	background: #f9762f url(../images/service_icon.png) 70px -81px no-repeat;
+}
+.content .content_item .more{
+	padding: 18px;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+}
+.content .content_item .more a{
+	background: url(../images/service_icon.png) 80px -116px no-repeat;
+	color: #45abf1;
+	padding-right: 20px;
+}
+
+/* 外卖 */
+.waimai_wraper .content_item.ad{
+	width: 230px;
+}
+.waimai_wraper .content .waimai{
+	width: 730px;
+}
+.waimai_wraper .content .waimai img{
+	width: 180px;
+}
+.waimai_wraper .content_item h2{
+	background-position: 0 -150px;
+}
