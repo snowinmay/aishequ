@@ -144,3 +144,79 @@
 .waimai_wraper .content_item h2{
 	background-position: 0 -150px;
 }
+/* 物业公告 */
+.notice_content{
+	padding: 35px;
+}
+.notice_content h3{
+	font-size: 24px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 30px;
+}
+.notice_content p{
+	line-height: 28px;
+	color: #666;
+}
+.notice_content .notice_para{
+	text-indent:2em;
+}
+.notice_content .time, .notice_content .from_name{
+	text-align: right;
+}
+/* bs--bug--header--s */
+.notice_wraper .header .header_wraper{
+	height: 60px;
+}
+/* bs--bug--header--e */
+.notice_wraper .content_item{
+	background: #fff;
+}
+.notice_wraper .content_item h2{
+	background: url(../images/notice_icon.png) 0 -80px no-repeat;
+}
+.notice_wraper .content .content_item li{
+	padding: 0;
+	border-top: none;
+	line-height: 32px;
+}
+.notice_wraper .content .content_item li a{
+	color: #666;
+}
+.notice_wraper .content .notice_list {
+	border-top: 1px solid #e5e5e5;
+	padding: 35px;
+	color: #666;	
+}
+.notice_wraper .pagination{
+	margin-left: 35px;
+	margin-top: 0;
+}
+.notice_wraper .pagination li a{
+	margin-right: 8px;
+}
+.notice_wraper .content .content_item .more{
+	border-top: none;
+}
+/* 配送 */
+.dist_wraper .content_item h2{
+	background: url(../images/notice_icon.png) 0 0 no-repeat;
+}
+.dist_wraper .content .content_item .see{
+	display: none;
+}
+
+/* 小区机构 */
+.org_wraper .content_item h2{
+	background: url(../images/notice_icon.png) 0 -40px no-repeat;
+}
+.org_wraper .content .content_item li{
+	padding: 35px;
+}
+.org_wraper .content .content_item .main{
+	margin-left: 0;
+	height: auto;	
+}
+.org_wraper .content .content_item .main_item{
+	line-height: 24px;
+}
