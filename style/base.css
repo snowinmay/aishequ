@@ -89,6 +89,9 @@ h1,h2,h3,h4,h5,h6 {
 .right{
 	float: right;
 }
+.db{
+	display: block;
+}
 .mb_15{
 	margin-bottom: 15px;
 }
@@ -105,6 +108,8 @@ h1,h2,h3,h4,h5,h6 {
 	height: 50px;
 	padding-top: 10px;
 	margin: auto;
+	position: relative;
+	box-sizing: content-box;
 }
 /* header e */
 
@@ -154,3 +159,103 @@ h1,h2,h3,h4,h5,h6 {
 	background: url(../images/login_icon.png) 5px 3px no-repeat;
 }
 /* index top e */
+/* bottom bar s */
+.bottom_bar{
+	background: #616162;
+	height: 76px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.bb_wraper{
+	box-sizing: border-box;
+	overflow: hidden;
+	zoom: 1;
+	width: 980px;
+	margin: auto;
+	padding: 18px 160px;
+}
+.bb_wraper .bb_item{
+	float: left;
+	font-size: 14px;
+	color: #fff;
+}
+.bb_wraper .bb_login{
+	float: right;
+}
+.bb_wraper .bb_login a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background: #f9a24b;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.bb_wraper .bb_position{
+	margin-top: 8px;
+	padding-left: 30px;
+	background: url(../images/index_icon.png) 10px -255px no-repeat;
+}
+.bb_wraper .bb_position_button{
+	margin-left: 30px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+}
+/* bottom bar e */
+/* 下拉登陆 s */
+.header_wraper .login_wraper{
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+.header_wraper .login_wraper .login{
+	border: none;
+	width: 340px;
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.header_wraper .login_wraper .login h2{
+	height: 50px;
+	left: 0;
+	margin: 0;
+	background: url(../images/login_down_title.png) no-repeat 65px 30px;
+}
+.header_wraper .login_wraper .form{
+	padding: 30px;
+}
+.header_wraper .login_wraper .btn-form{
+	margin-top: 10px;
+	width: 130px;
+	float: left;
+}
+.header_wraper .login_wraper .buttons{
+	display: block;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.header_wraper .login_wraper .btn-register{
+	float: right;
+}
+.header_wraper .login_wraper a.forget{
+	float: right;
+	position: relative;
+	background: none;
+	color: #666;
+}
+.login_wraper .alert{
+	border-radius: 0;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.login_wraper.dropdown-menu{
+	width: 342px;
+}
+/* 下拉登陆 e */

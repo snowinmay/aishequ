@@ -78,6 +78,7 @@
 	font-weight: normal;
 	background: #45abf1 url(../images/index_icon.png) 23px -310px no-repeat;
 	margin-right: 15px;
+	box-sizing: content-box;
 }
 .content .logistics h3{
 	background: #f89945 url(../images/index_icon.png) 23px -390px no-repeat;
@@ -118,6 +119,7 @@
 	padding-top: 10px;
 	height: 148px;
 	border: 1px solid #e5e5e5;
+	box-sizing : content-box;
 }
 .content .forum_nav{
 	height: 160px;
@@ -148,6 +150,10 @@
 	line-height: 32px;
 	height: 32px;
 	border-bottom: 1px solid #e5e5e5;
+}
+.forum_content .forum_item h4{
+	font-weight: bold;
+	line-height: 32px;
 }
 .forum_content ul{
 	float: left;
@@ -195,23 +201,23 @@
 	margin-left: 12px;
 	padding-left: 12px;
 }
-.login_wraper .content .login, .login_wraper .content .register{
+.login_wraper .login, .login_wraper .register{
 	box-sizing : border-box;
 	width: 480px;
 	border: 4px solid #e5e5e5;
 	background: #fff;
 }
-.login_wraper .content h2{
+.login_wraper h2{
 	height: 36px;
 	margin: 10px 0;
 	background: url(../images/login.png) 0 0 no-repeat;
 	position: relative;
 	left: -4px;
 }
-.login_wraper .content .register h2{
+.login_wraper .register h2{
 	background-position: 0 -50px;
 }
-.login_wraper .content .form{
+.login_wraper .form{
 	padding: 36px;
 }
 .form .form-control{
