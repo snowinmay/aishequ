@@ -25,9 +25,24 @@
 				</div>
 				<div>
 					<div class="header_right">
-						<div class="login_item position">我在:<a href="#">上地家园</a></div>			
+						<div class="login_item position dropdown">我在:<a href="#"  data-toggle="dropdown" class="dropdown-toggle">上地家园</a>
+							<div class="position_wraper dropdown-menu dropdown-menu-right">
+								<form action="">
+									<input type="text" class="form-control" placeholder="请输入小区名称(中文或拼音)">
+									<dl>
+										<dt>热门小区</dt>
+										<dd><a href="#">三坝雅苑</a></dd>
+										<dd><a href="#">三坝雅苑</a></dd>
+										<dd><a href="#">三坝雅苑</a></dd>
+										<dd><a href="#">三坝雅苑</a></dd>
+										<dd><a href="#">三坝雅苑</a></dd>
+										<dd><a href="#">三坝雅苑</a></dd>
+									</dl>
+								</form>
+							</div>
+						</div>		
 						<div class="login_item login dropdown">
-							<a href="login.html" data-toggle="dropdown" class="dropdown-toggle">请登录</a>
+							<a href="login.html" data-toggle="dropdown" class="to_login dropdown-toggle">请登录</a>
 							<div class="login_wraper dropdown-menu dropdown-menu-right">
 								<div class="login">
 									<h2></h2>
@@ -55,7 +70,21 @@
 									</div>				
 								</div>
 							</div>
-						</div>					
+						</div>
+						<div class="login_item logined dropdown">
+							<a href="login.html" data-toggle="dropdown" class="dropdown-toggle to_logined"><img class="avater" src="images/avater.png" alt="">俞坚奇</a>
+							<div class="logined_wraper dropdown-menu dropdown-menu-right">
+								<form action="">
+									<ul>
+										<li><a href="#"><span class="glyphicon glyphicon-bell"></span> 消息论坛(<span class="number">6</span>)</a></li>
+									    <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> 物业公告(<span class="number">6</span>)</a></li>
+									    <li><a href="#"><span class="glyphicon glyphicon-edit"></span> 修改资料</a></li>
+									    <li class="divider"></li>
+									    <li><a href="#"><span class="last glyphicon glyphicon-off"></span> 登出</a></li>
+									</ul>
+								</form>
+							</div>
+						</div>
 					</div>					
 				</div>
 			</div>
